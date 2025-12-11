@@ -1,34 +1,48 @@
 # NARG
-NRAG: A Knowledge Graph-Enhanced Large Language Model Approach for Neurosurgical Disease Diagnosis
 
-神外医学诊断大模型项目（NRAG）拟通过大模型方式实现神经外科领域疾病诊断及知识问答等任务，推动神外领域知识问答、临床辅助诊疗等领域的快速发展。
+**NARG: A Knowledge Graph-Enhanced Large Language Model Approach for Neurosurgical Disease Diagnosis**
 
-目前针对神经外科领域的疾病诊断任务，发布了神外疾病诊断指令微调大模型NRAG。
+The Neurosurgical Medical Diagnosis Large Model Project (NARG) aims to enable disease diagnosis and knowledge-based question answering in the field of neurosurgery through large language model (LLM) methodologies. This project seeks to advance neurosurgical knowledge services and clinical decision support by developing LLMs tailored for neurosurgical tasks.
 
+At present, for disease diagnosis tasks in neurosurgery, we have released **NRAG**, an instruction-tuned LLM specifically optimized for neurosurgical diagnostic applications.
 
+---
 
-## 更新日志
-[2025/07] 论文投稿中
+## Update Log
 
-[2025/06] 面向神经外科领域的疾病诊断的大模型NRAG
+* **[2025/07]** Manuscript under submission
+* **[2025/06]** Release of NRAG, a large model for disease diagnosis in neurosurgery
+* **[2024/09]** Project initiated
 
-[2024/09] 项目启动
+---
 
 ## A Quick Start
-1. 首先需要下载ChatGLM3-6B原始模型代码和参数，并配置依赖环境（ChatGLM3-6B: [https://github.com/THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3) ）。
-2. 下载 NRAG 模型参数，将checkpoint压缩文件解压到 ChatGLM3-6B/ptuning/ 路径下。
-3. 参考ChatGLM3-6B项目，调用制定checkpoint路径下的训练参数，激活模型。
-   
-夸克网盘链接: https://pan.quark.cn/s/2b9f55fbf46c    提取码：GzTe
 
-## 致谢
-本项目参考了以下开源项目，在此对相关项目和研究开发人员表示感谢。
-- ChatGLM-6B: https://github.com/THUDM/ChatGLM-6B
-- Chinese-LLaMA-Alpaca: https://github.com/ymcui/Chinese-LLaMA-Alpaca
-- Stanford Alpaca: https://github.com/tatsu-lab/stanford_alpaca
-- Huatuo: https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese
+1. Download the original *ChatGLM3-6B* model code and parameters, and configure the required dependencies (ChatGLM3-6B: [https://github.com/THUDM/ChatGLM3](https://github.com/THUDM/ChatGLM3)).
+2. Download the NRAG model parameters and extract the checkpoint files into the directory: `ChatGLM3-6B/ptuning/`.
+3. Following the *ChatGLM3-6B* project guidelines, load and activate the model using the training parameters from the specified checkpoint path.
 
-  
-## 免责声明
+Quark Cloud Link: [https://pan.quark.cn/s/2b9f55fbf46c](https://pan.quark.cn/s/2b9f55fbf46c)
+Access Code: **GzTe**
 
-本项目相关资源仅供学术研究之用，严禁用于商业用途。使用涉及第三方代码的部分时，请严格遵循相应的开源协议。模型生成的内容受模型计算、随机性和量化精度损失等因素影响，本项目无法对其准确性作出保证。本项目数据集绝大部分由模型生成，即使符合某些医学事实，也不能被用作实际医学诊断的依据。对于模型输出的任何内容，本项目不承担任何法律责任，亦不对因使用相关资源和输出结果而可能产生的任何损失承担责任。
+---
+
+## Acknowledgments
+
+This project draws on the following open-source resources. We express our sincere gratitude to the respective projects and contributors:
+
+* ChatGLM-6B: [https://github.com/THUDM/ChatGLM-6B](https://github.com/THUDM/ChatGLM-6B)
+* Chinese-LLaMA-Alpaca: [https://github.com/ymcui/Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+* Stanford Alpaca: [https://github.com/tatsu-lab/stanford_alpaca](https://github.com/tatsu-lab/stanford_alpaca)
+* Huatuo: [https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese)
+
+---
+
+## Disclaimer
+
+All resources associated with this project are intended **solely for academic research** and are strictly prohibited from being used for commercial purposes. Users must comply with the respective open-source licenses when using components involving third-party code.
+
+The model’s generated content may be affected by factors such as computational limitations, randomness, and quantization precision, and thus **no guarantee of accuracy** is provided. Most datasets used in this project are model-generated; even if certain outputs appear consistent with medical facts, they **must not** be used as the basis for actual medical diagnosis.
+
+The project team assumes no legal liability for any content produced by the model, nor for any potential losses arising from the use of related resources or model outputs.
+
