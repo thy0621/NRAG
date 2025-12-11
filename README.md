@@ -4,7 +4,7 @@
 
 The Neurosurgical Medical Diagnosis Large Model Project (NARG) aims to enable disease diagnosis and knowledge-based question answering in the field of neurosurgery through large language model (LLM) methodologies. This project seeks to advance neurosurgical knowledge services and clinical decision support by developing LLMs tailored for neurosurgical tasks.
 
-At present, for disease diagnosis tasks in neurosurgery, we have released **NRAG**, an instruction-tuned LLM specifically optimized for neurosurgical diagnostic applications.
+At present, for disease diagnosis tasks in neurosurgery, we have released **NRAG**, an instruction-tuned LLM specifically optimized for neurosurgical diagnosis applications.
 
 ---
 
